@@ -2,6 +2,8 @@
 $name  = $_REQUEST["name"];
 $email = $_REQUEST["email"];
 $mobile = $_REQUEST["mobile"];
+$url = 'https://api.sendgrid.com/';
+
 //$msg   = $_REQUEST["msg"];
 $to    = "infobactech@gmail.com"; // <--- Change email ID here
 if (isset($email) && isset($name)) {
