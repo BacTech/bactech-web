@@ -29,7 +29,7 @@ $params = array(
     'api_key'   => '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',
     'to'        => $to,
     'subject'   => $subject,
-    'text'      => $msg,
+    'html'      => $msg,
     'from'      => 'example@sendgrid.com',
   );
 
@@ -53,7 +53,7 @@ $response = curl_exec($session);
 curl_close($session);
 
 // print everything out
-echo($response);
+print_r($response);
 
 ?>
 
